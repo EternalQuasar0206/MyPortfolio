@@ -15,6 +15,10 @@
     text-align: left;
 }
 
+.language-content img {
+    width: 25%;
+}
+
 .language-content p img {
     image-rendering: optimizeQuality;
     transition: 0.3s;

@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow-x: hidden;
     color: var(--text-color);
     background: var(--bg-color);
     font-family: 'Open Sans', sans-serif;

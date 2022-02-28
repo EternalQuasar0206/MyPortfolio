@@ -1,0 +1,53 @@
+.card {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+
+    border-radius: 1em;
+    font-size: 0.8em;
+    background: var(--fg-color);
+    border: 0.1em solid var(--text-color);
+    color: var(--text-color);
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.8em;
+    margin-inline: 0.5em;
+}
+
+.card:hover {
+    background: var(--fg-color-light);
+}
+
+.card div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.card div:first-child {
+    width: 8%;
+}
+
+.card div:last-child {
+    width: 92%;
+}
+
+.card img {
+    width: 100%;
+}
+
+@media (max-width: 799px)
+{
+    .card { 
+        width: 100%; 
+        margin-bottom: 2%;
+    }
+}
+
+@media (min-width: 800px)
+{
+    .card { 
+        width: 40%;
+        margin-bottom: 1%;
+    }
+}
