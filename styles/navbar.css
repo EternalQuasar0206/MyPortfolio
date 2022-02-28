@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 18vh;
+    background: var(--fg-color);
+}
+
+.navbar-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar .navbar-section .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-inline: 5%;
+}
+
+.pagesNavbar {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 799px)
+{
+    .pagesNavbar {
+        padding-top: 4vh;
+    }
+}
+
+@media (min-width: 800px)
+{
+    .pagesNavbar {
+        padding-top: 4vh;
+    }
+}

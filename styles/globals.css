@@ -1,0 +1,27 @@
+:root {
+    --bg-color: #0D1117;
+    --fg-color: #161B22;
+    --fg-color-light: #4c4c4d;
+    --text-color: #eee;
+    --gradient-start: #00FCBF;
+    --gradient-end: #007254;
+}
+
+@media (max-width: 799px)
+{
+    .title-size { font-size: 2.5em; }
+}
+
+@media (min-width: 800px)
+{
+    .title-size { font-size: 3.5rem; }
+}
+
+.title-font { font-family: 'Montserrat', sans-serif; }
+
+.title-gradient {
+  background: -webkit-linear-gradient(var(--gradient-start), var(--gradient-end));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

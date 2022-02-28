@@ -1,0 +1,15 @@
+.button {
+    cursor: pointer;
+    border-radius: 1em;
+    font-size: 0.8em;
+    background: var(--fg-color);
+    border: 0.1em solid var(--text-color);
+    color: var(--text-color);
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.5em;
+    margin-inline: 0.5em;
+}
+
+.button:hover {
+    background: var(--fg-color-light);
+}
