@@ -35,7 +35,7 @@
         font-size: 0.8em;
     }
 
-    .language-content p, .language-content h2 {
+    .language-content p, .language-content h2, .language-content h3 {
         width: 100%;
     }
 
@@ -52,7 +52,7 @@
         padding-inline: 5%;
     }
 
-    .language-content p, .language-content h2 {
+    .language-content p, .language-content h2, .language-content h3 {
         width: 40%;
     }
 
