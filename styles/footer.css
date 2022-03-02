@@ -2,4 +2,8 @@ footer {
     margin-top: 3%;
     background: var(--fg-color);
     height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
 }
